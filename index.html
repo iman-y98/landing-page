@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pro Landing — Your Product</title>
+  <meta name="description" content="Clean, responsive landing page template built with HTML & CSS." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#">Pro<span>Landing</span></a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-primary" href="#signup">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Launch faster with a clean, professional landing page</h1>
+          <p class="lead">Built with semantic HTML and modern, responsive CSS — perfect for portfolios, products, or small businesses.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" id="signup" href="#pricing">Start free trial</a>
+            <a class="btn btn-ghost" href="#features">See features</a>
+          </div>
+
+          <ul class="stats">
+            <li><strong>1,200+</strong><span>Users</span></li>
+            <li><strong>99.9%</strong><span>Uptime</span></li>
+            <li><strong>24/7</strong><span>Support</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="card-mockup">
+            <div class="card-header"></div>
+            <div class="card-body">
+              <h3>Product Dashboard</h3>
+              <p>Metrics and insights at a glance.</p>
+              <div class="metrics">
+                <div><strong>4.8</strong><span>Rating</span></div>
+                <div><strong>14k</strong><span>Installs</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container features">
+      <h2 class="section-title">Features that matter</h2>
+      <p class="section-sub">Everything you need to present your product professionally.</p>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Fast & Lightweight</h3>
+          <p>Minimal CSS, semantic structure, and fast load times.</p>
+        </article>
+
+        <article class="feature">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <h3>Responsive</h3>
+          <p>Looks great on phones, tablets and desktops out of the box.</p>
+        </article>
+
+        <article class="feature">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <h3>Easy to Customize</h3>
+          <p>Well-organized CSS variables and utility classes to adapt quickly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="container pricing">
+      <h2 class="section-title">Pricing</h2>
+      <p class="section-sub">Simple pricing for teams of all sizes.</p>
+
+      <div class="pricing-grid">
+        <div class="card plan">
+          <h3>Starter</h3>
+          <p class="price">Free</p>
+          <ul class="plan-features">
+            <li>Basic features</li>
+            <li>Community support</li>
+            <li>Single project</li>
+          </ul>
+          <a class="btn btn-outline" href="#signup">Choose</a>
+        </div>
+
+        <div class="card plan featured">
+          <h3>Pro</h3>
+          <p class="price">₦10,000 <span class="period">/ month</span></p>
+          <ul class="plan-features">
+            <li>All Starter features</li>
+            <li>Priority support</li>
+            <li>Unlimited projects</li>
+          </ul>
+          <a class="btn btn-primary" href="#signup">Get Pro</a>
+        </div>
+
+        <div class="card plan">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <ul class="plan-features">
+            <li>Dedicated support</li>
+            <li>Custom integrations</li>
+            <li>SLA & onboarding</li>
+          </ul>
+          <a class="btn btn-outline" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <div class="contact-grid">
+        <div>
+          <h2>Stay in touch</h2>
+          <p>Sign up to get product updates and exclusive offers.</p>
+        </div>
+        <form class="contact-form" action="#" onsubmit="event.preventDefault()">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" type="email" placeholder="you@company.com" required>
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand-col">
+        <a class="brand" href="#">Pro<span>Landing</span></a>
+        <p>Clean template · Built with ❤️ · Nigeria</p>
+      </div>
+
+      <div class="links-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="legal-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="attribution">© <span id="year"></span> ProLanding. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // small script for dynamic year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
